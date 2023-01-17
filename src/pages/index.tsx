@@ -5,7 +5,7 @@ import styles from '@/styles/Home.module.scss'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
-  console.log('sadfa')
+  consoe.log('sadfa')
   return (
     <>
       <Head>
