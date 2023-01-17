@@ -1,0 +1,8 @@
+@import "mixins";
+
+
+.main {
+    @include mobile() {
+        background-color: red;
+    }
+}
