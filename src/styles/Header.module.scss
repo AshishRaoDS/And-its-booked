@@ -1,0 +1,42 @@
+.headerWrapper {
+    height: 95px;
+    background-color: #aa1a22;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    justify-content: center;
+    gap: 500px;
+    left: 0;
+
+    .logo {
+        max-width: 90px;
+    }
+
+    .navTabsContainer {
+
+        .navTabsWrapper {
+            display: flex;
+            gap: 40px;
+            align-items: flex-end;
+
+            button {
+                background-color: transparent;
+                cursor: pointer;
+                border: none;
+                outline: none;
+                font-size: 18px;
+                font-weight: 700;
+                color: white;
+                font-family: sans-serif;
+
+                &:hover {
+                    color: yellow;
+                }
+            }
+        }
+
+
+    }
+}

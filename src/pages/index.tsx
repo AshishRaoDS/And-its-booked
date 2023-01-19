@@ -1,11 +1,11 @@
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
-import styles from '@/styles/Home.module.scss'
+import styles from '../styles/Home.module.scss'
+import Header from '../components/shared/Header'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
-  console.log('sadfa')
+const Home = () => {
   return (
     <>
       <Head>
@@ -15,8 +15,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        This is the Landing Page
+        <Header />
       </main>
     </>
   )
 }
+
+export default Home;

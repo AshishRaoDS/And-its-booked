@@ -13,10 +13,10 @@
       1,
       {
         "extensions": [
+          ".tsx",
           ".js",
           ".jsx",
-          ".ts",
-          ".tsx"
+          ".ts"
         ]
       }
     ],
@@ -25,7 +25,16 @@
     "react/jsx-props-no-spreading": "off",
     "comma-dangle": "off",
     "object-curly-newline": "off",
-    "no-undef": "error"
+    "no-undef": "error",
+    "arrow-body-style": "off",
+    "import/extensions": "off",
+    "react/function-component-definition": [
+      2,
+      {
+        "namedComponents": "arrow-function",
+        "unnamedComponents": "arrow-function"
+      }
+    ]
   },
   "plugins": [
     "@typescript-eslint"
